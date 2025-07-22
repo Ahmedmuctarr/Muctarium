@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muctarium - App Store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/apps.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="icon" href="../imgs/MuctariumLogo.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <span class="logo"><img src="../imgs/MuctariumLogo.png"></span>
+        <ul>
+            <li onclick="window.location.href='../index.html'">Home</li>
+            <li onclick="window.location.href='about.html'">About</li>
+            <li onclick="window.location.href='services.html'">Services</li>
+            <li class="active">Apps</li>
+            <li onclick="window.location.href='../index.html#contact'">Contact</li>
+        </ul>
+        <button>
+            <i class='bx bx-user-circle'></i>
+            <span class="text">Join Us</span>
+        </button>
+        <span class="menu"><i class='bx bx-menu'></i></span>
+        <span class="close"><i class='bx bx-x'></i></span>
+        
+    </nav>
+
+    <main>
+        <header class="store-header">
+            <h1>Muctarium App Hub!</h1>
+            <p>Level up your grind with apps that slay productivity and spark creativity.</p>
+        </header>
+        <section class="search-bar">
+            <input type="text" placeholder="Search for apps..." id="app-search">
+            <button type="button" onclick="searchApps()">
+            <i class='bx bx-search'></i>
+            </button>
+        </section>
+        <section class="apps-grid">
+            <div class="app-card">
+                <div class="app-image">
+                    <img src="../imgs/s1.jpg" alt="App 1">
+                </div>
+                <div class="app-content">
+                    <h3>Microsoft Word</h3>
+                    <p>Create, edit, and share documents on the go.</p>
+                    <a href="#" class="btn-run"><i class="bx bx-download"></i> Get</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <div class="app-image">
+                    <img src="../imgs/s4.jpg" alt="App 2">
+                </div>
+                <div class="app-content">
+                    <h3>Microsoft Excel</h3>
+                    <p>Analyze and visualize your data effortlessly.</p>
+                    <a href="#" class="btn-run"><i class="bx bx-play"></i> Run</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <div class="app-image">
+                    <img src="../imgs/s3.jpg" alt="App 3">
+                </div>
+                <div class="app-content">
+                    <h3>Microsoft Teams</h3>
+                    <p>Collaborate and communicate with your team.</p>
+                    <a href="#" class="btn-run"><i class="bx bx-download"></i> Download</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <div class="app-image">
+                    <img src="../imgs/s2.jpg" alt="App 4">
+                </div>
+                <div class="app-content">
+                    <h3>Microsoft OneNote</h3>
+                    <p>Organize your notes and ideas in one place.</p>
+                    <a href="#" class="btn-run"><i class="bx bx-download"></i> Get</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="imgs/MuctariumLogo.png" alt="Muctarium Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 Muctarium. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/nav.js"></script>
+    <script src="../js/fetchApps.js"></script>
+</body>
+</html>

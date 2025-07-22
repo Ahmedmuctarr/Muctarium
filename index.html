@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muctarium</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/alert.css">
+    <link rel="icon" href="imgs/MuctariumLogo.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <span class="logo"><img src="imgs/MuctariumLogo.png"></span>
+        <ul>
+            <li class="active">Home</li>
+            <li onclick="window.location.href='pages/about.html'">About</li>
+            <li onclick="window.location.href='pages/services.html'">Services</li>
+            <li onclick="window.location.href='pages/apps.html'">Apps</li>
+            <li onclick="window.location.href='#contact'">Contact</li>
+        </ul>
+        <button  onclick="window.location.href='coming_soon.html'">
+            <i class='bx bx-user-circle'></i>
+            <span class="text">Join Us</span>
+        </button>
+        <span class="menu"><i class='bx bx-menu'></i></span>
+        <span class="close"><i class='bx bx-x'></i></span>
+        
+    </nav>
+
+    <main>
+        <section class="intro">
+            <p class="welcome">A digital Solution for all</p>
+            <h1><span>&lt;Muctarium&gt;</span> Where growth meets connection, digitalization, and creation</h1>
+            <p class="description">Welcome to Muctarium, the digital solution company designed to help you grow, connect, and innovate. We blend creativity with technology to build the future your business deserves. Dive in to discover how we can transform your digital journey and unlock new possibilities together. Scroll down and let's create something extraordinary!</p>
+        </section>
+        <div class="buttons">
+            <a href="#about" class="btn-home"><span> Inspired</span> <i class='bx bxs-chevron-right-circle'></i></a>
+            <button class="btn-plain" onclick="window.location.href='https://www.youtube.com/@muctarium'"><i class='bx bx-play-circle bx-sm'></i> <span> From Us</span></button>
+        </div>
+    </main>
+    <!-- WHY US Section -->
+    <section class="why-choose-us">
+        <div class="card-container">
+          <div class="features-row">
+            <article class="intro-article">
+              <span class="highlight">Every Decision Matters</span>
+              <h2>Why Choose Us?</h2>
+              <button class="btn-benefits">Discover More Benefits</button>
+            </article>
+      
+            <article class="feature">
+              <i class='bx bx-code-block bx-lg'></i>
+              <h3>Embrace Digitalization</h3>
+              <p>Transform operations and experiences.</p>
+            </article>
+            <article class="feature">
+              <i class='bx bx-paint bx-lg'></i>
+              <h3>Standout Branding</h3>
+              <p>Craft unique, lasting identities.</p>
+            </article>
+            <article class="feature">
+              <i class='bx bx-layer bx-lg'></i>
+              <h3>Unlimited Resources</h3>
+              <p>Tools and expertise for growth.</p>
+            </article>
+          </div>
+        </div>
+    </section>
+    <!-- ABOUT Section -->
+    <section id="about" class="about-us">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="imgs/about.jpg" alt="About Us">
+            </div>
+            <div class="about-content">
+                <span class="highlight">Who We Are</span>
+                <h3>Unleashing Digital Potential</h3>
+                <p>At Muctarium, we are passionate about delivering innovative digital solutions that empower businesses to thrive in a connected world. Our team of experts is dedicated to creating impactful experiences that drive growth and success.</p>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <i class='bx bx-target-lock bx-md'></i>
+                        <div class="card-text">
+                            <h4>Our Mission</h4>
+                            <p>Deliver innovative solutions that drive growth.</p>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <i class='bx bx-world bx-md'></i>
+                        <div class="card-text">
+                            <h4>Our Vision</h4>
+                            <p>Lead globally in digital transformation.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-learn-more" onclick="window.location.href='/pages/about.html'">Learn More About Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-container">
+            <span class="highlight">What We Offer</span>
+            <h2>Empower Your Vision with Our Expertise</h2>
+            <p>Discover a suite of services crafted to elevate your business and unlock limitless possibilities.</p>
+            <div class="service-cards">
+                <div class="service-card">
+                    <div class="card-text">
+                        <h3>Web Development</h3>
+                        <p>Design and develop stunning, responsive websites that captivate and convert.</p>
+                        <a href="pages/Services.html#web-development" class="learn-more">
+                            Learn More <i class='bx bxs-right-arrow-circle'></i>
+                        </a>
+                    </div>
+                    <div class="card-image img-right">
+                        <img src="imgs/s1.jpg" alt="Web Development">
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-image img-left">
+                        <img src="imgs/s2.jpg" alt="Mobile Apps">
+                    </div>
+                    <div class="card-text">
+                        <h3>Mobile Apps</h3>
+                        <p>Create user-friendly mobile applications for all platforms.</p>
+                        <a href="pages/Services.html#mobile-apps" class="learn-more">
+                            Learn More <i class='bx bxs-right-arrow-circle'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-text">
+                        <h3>Digital Marketing</h3>
+                        <p>Boost your online presence with targeted marketing strategies.</p>
+                        <a href="pages/Services.html#digital-marketing" class="learn-more">
+                            Learn More <i class='bx bxs-right-arrow-circle'></i>
+                        </a>
+                    </div>
+                    <div class="card-image img-right">
+                        <img src="pages/Services.htmlimgs/s3.jpg" alt="Digital Marketing">
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-image img-left">
+                        <img src="imgs/s4.jpg" alt="Digital Marketing">
+                    </div>
+                    <div class="card-text">
+                        <h3>Branding</h3>
+                        <p>Build a strong and unique identity for your business.</p>
+                        <a href="pages/Services.html#digital-marketing" class="learn-more">
+                            Learn More <i class='bx bxs-right-arrow-circle'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="pages/Services.html" class="btn-muct"><span> Inspired</span> <i class='bx bxs-chevron-right-circle'></i></a>
+        </div>
+    </section>
+    <!-- Platforms Section -->
+     <h1 class="platforms-title">Our Platforms</h1>
+    <section id="platforms" class="platforms">
+        <div class="platform">
+            <div class="platform-image">
+                <img src="imgs/s4.jpg" alt="Learn">
+            </div>
+            <div class="platform-content">
+                <h2>Learn</h2>
+                <p>Expand your knowledge and skills with our comprehensive learning resources. Stay ahead in the digital age by mastering the tools and techniques that drive success.</p>
+            </div>
+        </div>
+        <div class="platform">
+            <div class="platform-image">
+                <img src="imgs/s3.jpg" alt="Earn">
+            </div>
+            <div class="platform-content">
+                <h2>Earn</h2>
+                <p>Unlock new opportunities to generate income through innovative solutions and strategies. Empower yourself to achieve financial growth and stability.</p>
+            </div>
+        </div>
+        <div class="platform">
+            <div class="platform-image">
+                <img src="imgs/s2.jpg" alt="Grow">
+            </div>
+            <div class="platform-content">
+                <h2>Grow</h2>
+                <p>Take your business to the next level with our tailored growth strategies. Build a sustainable future by leveraging our expertise and resources.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="projects-container">
+            <span class="highlight">Our Work</span>
+            <h2>Explore Our Applications</h2>
+            <p>Take a look at some of the innovative projects we've worked on. Each project showcases our commitment to excellence and creativity.</p>
+            <section class="apps-grid">
+                <!--<div class="app-card">
+                    <div class="app-image">
+                        <img src="../imgs/s1.jpg" alt="App 1">
+                    </div>
+                    <div class="app-content">
+                        <h3>Microsoft Word</h3>
+                        <p>Create, edit, and share documents on the go.</p>
+                        <a href="#" class="btn-run"><i class="bx bx-download"></i> Get</a>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="../imgs/s4.jpg" alt="App 2">
+                    </div>
+                    <div class="app-content">
+                        <h3>Microsoft Excel</h3>
+                        <p>Analyze and visualize your data effortlessly.</p>
+                        <a href="#" class="btn-run"><i class="bx bx-play"></i> Run</a>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="../imgs/s3.jpg" alt="App 3">
+                    </div>
+                    <div class="app-content">
+                        <h3>Microsoft Teams</h3>
+                        <p>Collaborate and communicate with your team.</p>
+                        <a href="#" class="btn-run"><i class="bx bx-download"></i> Download</a>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="../imgs/s2.jpg" alt="App 4">
+                    </div>
+                    <div class="app-content">
+                        <h3>Microsoft OneNote</h3>
+                        <p>Organize your notes and ideas in one place.</p>
+                        <a href="#" class="btn-run"><i class="bx bx-download"></i> Get</a>
+                    </div>
+                </div>-->
+            </section>
+            <a href="pages/Apps.html" class="btn-explore-apps">
+                Explore Apps <i class='bx bxs-chevron-right-circle'></i>
+            </a>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <span class="highlight">Get in Touch</span>
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out to us for any inquiries, collaborations, or just to say hello.</p>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><i class='bx bxl-telegram'></i> @Muctarium</p>
+                <p><i class='bx bxl-whatsapp'></i> +23280683991</p>
+                <p><i class='bx bx-envelope'></i> contact@muctarium.com</p>
+                <p><i class='bx bx-map'></i> ONLINE START-UP</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="imgs/MuctariumLogo.png" alt="Muctarium Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 Muctarium. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/Alerts.js"></script>
+    <script src="js/mail.js"></script>
+    <script src="js/fetchApps.js"></script>
+</body>
+</html>

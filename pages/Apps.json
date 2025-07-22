@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Malakablue",
+    "description": "Empowers Liberian farmers with sustainable agriculture.",
+    "image": "https://malakablue.org/images/Malakablue-logo.jpg",
+    "link": "https://malakablue.org",
+    "btnText": "Visit",
+    "btnIcon": "bx-link"
+  },
+  {
+    "title": "Luvology Trans",
+    "description": "Offers spiritual coaching for personal growth.",
+    "image": "https://luvologytrans.com/images/luvology-png.png",
+    "link": "https://luvologytrans.com",
+    "btnText": "Explore",
+    "btnIcon": "bx-link"
+  },
+  {
+    "title": "Fifastore0",
+    "description": "Sells affordable football jerseys worldwide",
+    "image": "https://fifastore0.com/imgs/fifa_Store.jpeg",
+    "link": "https://fifastore0.com",
+    "btnText": "Shop Now",
+    "btnIcon": "bx-link"
+  }
+]
